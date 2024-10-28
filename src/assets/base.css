@@ -23,14 +23,14 @@
 
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
+  --color-background: #5271FF;
+  --color-background-soft: #5271FF;
+  --color-background-mute: #5271FF;
 
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
+  --color-border:#5271FF;
+  --color-border-hover: #5271FF;
 
-  --color-heading: var(--vt-c-text-light-1);
+  --color-heading: #5271FF;
   --color-text: var(--vt-c-text-light-1);
 
   --section-gap: 160px;
