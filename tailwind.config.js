@@ -1,23 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-   
-
     fontFamily: {
-      sans: ['Nunito', 'sans-serif'],
+      
     },
     extend: {
-      colors:{
-        mastblue: '#5271FF',
-        yellowText: '#FADF70',
-        whiteText: '#FFFEFE',
-      }
+      colors: {
+        Mblue: "#4660E3",
+        yellowText: "#ffc000",
+        whiteText: "#F8FFF4",
+        Mblack: "#0C0910",
+        Mgray: "#273043",
+      },
     },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
-
+};
