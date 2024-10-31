@@ -6,6 +6,9 @@ export default {
       
     },
     extend: {
+      backgroundImage:{
+        vovochka: './public/IMG_5956.jpeg'
+      },
       colors: {
         Mblue: "#4660E3",
         yellowText: "#ffc000",
