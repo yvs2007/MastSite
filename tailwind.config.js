@@ -7,7 +7,7 @@ export default {
     },
     extend: {
       backgroundImage:{
-        
+        brackets:"~/public/brackets.png",
       },
       colors: {
         Mblue: "#4660E3",
