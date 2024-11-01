@@ -9,7 +9,7 @@ import Body from "./components/Body.vue";
         <!-- Ok so the Title is pretty basic and will need to add a logo later ig-->
         <Title class="p-8" />
         <!--The body will be a little bit different probably with some interactive features.-->
-        <Body class="p-8" />
+        <Body class="p-8 space-y-2" />
     </div>
 </template>
 
