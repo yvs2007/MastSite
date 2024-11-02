@@ -2,14 +2,16 @@
 import { ref } from "vue";
 import Title from "./components/Title.vue";
 import Body from "./components/Body.vue";
+import Footer from "./components/footer.vue";
 </script>
 
 <template>
     <div id="main">
         <!-- Ok so the Title is pretty basic and will need to add a logo later ig-->
-        <Title class="p-8" />
+        <Title class="p-4" />
         <!--The body will be a little bit different probably with some interactive features.-->
-        <Body class="p-8 space-y-2" />
+        <Body class="p-8" />
+        <Footer class="p-8"/>
     </div>
 </template>
 
