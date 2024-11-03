@@ -1,14 +1,20 @@
 <script setup>
 import { ref } from "vue";
-import Anounce from "./bcomponents/anounce.vue";
-import Goals from "./bcomponents/goals.vue";
+import AEs from "./bcomponents/AEs.vue";
+import GOs from "./bcomponents/GOs.vue";
 import Mission from "./bcomponents/mission.vue";
-import Opportunities from "./bcomponents/opportunities.vue";
-import Events from "./bcomponents/events.vue";
 </script>
 
 <template>
     <div class="bg-Mblue m-1 rounded-sm">
+        <!--The mission is for the mission statment and can be easily changed inside 
+        the actual file.-->
+        <Mission />
+        <!--The announcement will be updated weekly and should honestly be bundled with the 
+        events.-->
+        <AEs />
+        <!--Im gonna bundle these rn gimme a sec.-->
+        <GOs />
 
         
     </div>
