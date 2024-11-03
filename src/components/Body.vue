@@ -1,13 +1,15 @@
 <script setup>
 import { ref } from "vue";
+import Anounce from "./bcomponents/anounce.vue";
+import Goals from "./bcomponents/goals.vue";
+import Mission from "./bcomponents/mission.vue";
+import Opportunities from "./bcomponents/opportunities.vue";
+import Events from "./bcomponents/events.vue";
 </script>
 
 <template>
     <div class="bg-Mblue m-1 rounded-sm">
-        <!--basically gonna remake this into a more readable part the no boxes.-->
-        <h1 class="text-1xl text-bold">
-            Announcements:
-        </h1>
+
         
     </div>
 </template>
