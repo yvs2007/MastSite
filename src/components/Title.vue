@@ -3,7 +3,7 @@ import { ref } from "vue";
 </script>
 
 <template>
-    <div class="text-center w-full ">
+    <div class="text-center w-full bg-opacity-15 ">
         <div class="">
             <h1 class="text-3xl text-yellowText font-sans font-extrabold p-3">
                 MASTer Coders
