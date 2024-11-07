@@ -11,27 +11,29 @@ const date = ref(month[2]+ " "+ day.value + "th, 2024" );
 <template>
     <div class="bg-Mblue m-1 rounded-sm bg-opacity-15">
         <!--Mission Stamtent.-->
-        <div id="Mission" class="text-2xl text-center border-b-2 text-black">
-            <h1> what is in here</h1>
+        <div id="Mission" class="text-2xl text-center mb-5 ">
+            <h1> Mission Statment</h1>
         </div>
         <!--Announcements and Events.-->
-        <div id="AEs">
-            <div id="Announcements" class="">
-            <h2>Announcements:</h2>
-            
-            <p>Next meeting is on {{ date }}</p>
+        <div id="AEs" class="">
+            <div id="Announcements" class="text-left mb-5">
+            <h2 class="text-bold text-xl ">Announcements:</h2>
+            <p class="text-l">Next meeting is on {{ date }}</p>
             </div>
-            <div id="Events" class="">
-                <h2>Events:</h2>
+            <div id="Events" class="text-right  mb-5">
+                <h2 class="text-xl text-bold">Events:</h2>
+                <p class="text-l">The next Hackathon is here>>></p>
             </div>
         </div>
         <!--goals and Opportunities.-->
         <div id="GOs" class="">
-            <div id="goals">
-                <h2>Goals:</h2>
+            <div id="goals" class="text-left  mb-5">
+                <h2 class="text-xl text-bold">Goals:</h2>
+                <p class="text-l"></p>
             </div>
-            <div id="oppourtunities">
-                <h2>Oppourtunities:</h2>
+            <div id="oppourtunities" class="text-right  mb-5">
+                <h2 class="text-xl text-bold">Oppourtunities:</h2>
+                <p class="text-l"></p>
             </div>
         </div>
     </div>

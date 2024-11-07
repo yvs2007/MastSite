@@ -10,6 +10,6 @@
     - [] add the links to the social medias
     - [] make a constitution icon
 ## [] Title
-    - [] make it a little nicer.
-    - [] organize the body
-    - [] maybe add some js
+    -[]make it a little nicer.
+    -[]organize the body
+## work on the js in the body for the the date to work.
