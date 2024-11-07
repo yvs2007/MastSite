@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from "vue";
-import AEs from "a.vue";
 </script>
 
 <template>
@@ -9,9 +8,16 @@ import AEs from "a.vue";
         <div id="Mission" class="text-2xl text-center border-b-2 text-black">
             <h1> what is in here</h1>
         </div>
-        <div>
         <!--Announcements and Events.-->
-        <AEs />
+        <div id="AEs" class="text-1xl inline-block">
+            <div id="Announcements" class="" ">
+                <h2 class="">Announcements:</h2>
+                <br>
+                <p class="">Meeting Novermber 14th, 2024 in Ms. Munoz's class</p>
+            </div>
+            <div id="Events." class="">
+                <p>Events:</p>
+            </div>
         </div> 
         <!--goals and Opportunities.-->
         <div id="GOs" class="">
