@@ -9,13 +9,16 @@ const date = ref(month[2]+ " "+ day.value + "th, 2024" );
 </script>
 
 <template>
-    <div class="bg-Mblue m-1 rounded-sm bg-opacity-15">
+    <div class="">
         <!--Mission Stamtent.-->
-        <div id="Mission" class="text-2xl text-center mb-5 ">
-            <h1> Mission Statment</h1>
+        <div id="Mission" class=" text-center border-4 rounded-md mb-4 bg-[#e5e7eb]">
+            <h1 class="text-2xl mb-2"> Mission Statment</h1>
+            <p class="text-l">Our Mission statement is to provide a safe space in order to nurture the passion of coding. 
+                While teaching to work in groups and in environments like the current job market.
+            </p>
         </div>
         <!--Announcements and Events.-->
-        <div id="AEs" class="">
+        <div id="AEs" class=" ">
             <div id="Announcements" class="text-left mb-5">
             <h2 class="text-bold text-xl ">Announcements:</h2>
             <p class="text-l">Next meeting is on {{ date }}</p>
@@ -29,11 +32,20 @@ const date = ref(month[2]+ " "+ day.value + "th, 2024" );
         <div id="GOs" class="">
             <div id="goals" class="text-left  mb-5">
                 <h2 class="text-xl text-bold">Goals:</h2>
-                <p class="text-l"></p>
+                <ul class="text-l list-disc">
+                    <li>To teach the thought process of a programmer </li>
+                    <li>For students to develop a passion and habit for programing </li>
+                    <li>To allow more advanced students to compete </li>
+                </ul>
             </div>
-            <div id="oppourtunities" class="text-right  mb-5">
+            <div id="oppourtunities" class="text-right mb-5">
                 <h2 class="text-xl text-bold">Oppourtunities:</h2>
-                <p class="text-l"></p>
+                <ul class="text=l list-disc">
+                    <li>Help provided Every Thursday </li>
+                    <li>Pushing Students to Attend Hackathons </li>
+                    <li>Creating a portfolio with students </li>
+                    <li>Increasing the chances for future CS jobs </li>
+                </ul>
             </div>
         </div>
     </div>
