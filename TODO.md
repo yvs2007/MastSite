@@ -1,4 +1,5 @@
 # What is there even to do
+# Make everything work on a desktop first and then adapt for the mobile device.
 ## [X] Figure out the title and add the logo
 ## [X] Set up the body of the program to look decent.
 ## [?] to the body add a certain element that can be changed depending on the calendar event

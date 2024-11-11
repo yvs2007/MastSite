@@ -10,7 +10,7 @@ import { ref } from "vue";
             </h1>
         </div>
         <div class="">
-            <h2 class="text-Mblue border-b-2 ">MAST Coding Club</h2>
+            <h2 class="text-Mblue border-b-2 font-bold">MAST Coding Club</h2>
         </div>
     </div>
 </template>
