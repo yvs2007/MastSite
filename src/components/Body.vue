@@ -1,11 +1,20 @@
 <script setup>
 import { ref } from "vue";
 
-const month = ["September", "October", "November", "December", "January", "Febuary", "March", 
-"April", "May"];
-const day = ref(14);
-const date = ref(month[2]+ " "+ day.value + "th, 2024" );
+let Nmonth = new Date().getMonth();
+const month = ["January", "Febuary", "March", "April", 
+"May", "June", "July", "August", "September", "October", "November", "December", ];
+let year = ref(new Date().getFullYear())
+let amonth;
 
+for (let i; i <= month.length; i++){
+    let x = i.value + 1;
+    if (x.value == Nmonth.valueOf){
+        amonth = month[i];
+    }
+}
+
+const date = ref(`${amonth} 14 th, ${year.value}` );
 </script>
 
 <template>
