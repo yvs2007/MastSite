@@ -31,9 +31,10 @@ const date = ref(/*month[Nmonth.value]*/ "December" + " 5" + "th "+ year.value)
             <h2 class="text-bold text-xl font-bold">Announcements:</h2>
             <p class="text-l">Next meeting is on {{ date }}</p>
             </div>
-            <div id="Events" class="text-right  mb-5">
+            <div id="Events" class="text-right w-[50%] float-right mb-5 border-8 rounded-xl">
                 <h2 class="text-xl font-bold">Events:</h2>
                 <p class="text-l">The next Hackathon is here>>></p>
+                <p class=""> what is in here </p>
             </div>
         </div>
         <!--goals and Opportunities.-->
