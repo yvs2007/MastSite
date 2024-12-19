@@ -11,7 +11,7 @@ let year = ref(new Date().getFullYear())
 
 
 
-const date = ref(/*month[Nmonth.value]*/ "December" + " 5" + "th "+ year.value)
+const date = ref(/*month[Nmonth.value]*/ "January" + " 9" + "th "+ year.value + 1)
 </script>
 
 <template>
