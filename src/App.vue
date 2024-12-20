@@ -8,10 +8,10 @@ import Footer from "./components/footer.vue";
 <template>
     <div id="main">
         <!-- Ok so the Title is pretty basic and will need to add a logo later ig-->
-        <Title class="p-4" />
+        <Title class="" />
         <!--The body will be a little bit different probably with some interactive features.-->
-        <Body class="p-8" />
-        <Footer class="p-8"/>
+        <Body class="" />
+        <Footer class=""/>
     </div>
 </template>
 

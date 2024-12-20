@@ -3,9 +3,9 @@ import { ref } from "vue";
 </script>
 
 <template>
-    <div class="text-center w-full bg-opacity-15 ">
+    <div class=" ">
         <div class="">
-            <h1 class="text-3xl text-yellowText font-sans font-extrabold p-3">
+            <h1 class="text-3xl text-yellowText font-extrabold p-3">
                 MASTer Coders
             </h1>
         </div>
@@ -14,5 +14,8 @@ import { ref } from "vue";
         </div>
     </div>
 </template>
+
+
+
 <style>
 </style>
