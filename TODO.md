@@ -2,7 +2,7 @@
 
 ## **General**
 
-|| Pick out some sort of color scheme that matches the colours. (YELLOW AND BLUE)
+|X| Pick out some sort of color scheme that matches the colours. (YELLOW AND BLUE)
 
 || INCORPERATE The LOGO somewhere into the website.
 

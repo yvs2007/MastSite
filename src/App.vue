@@ -3,10 +3,12 @@ import { ref } from "vue";
 import Title from "./components/Title.vue";
 import Body from "./components/Body.vue";
 import Footer from "./components/footer.vue";
+import navBar from "./componentes/navbar.vue";
 </script>
 
 <template>
     <div id="main">
+        <navBar class=""/>
         <!-- Ok so the Title is pretty basic and will need to add a logo later ig-->
         <Title class="" />
         <!--The body will be a little bit different probably with some interactive features.-->

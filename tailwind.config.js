@@ -14,7 +14,7 @@ export default {
         yellowText: "#ffc000",
         whiteText: "#F8FFF4",
         Mblack: "#0C0910",
-        Mgray: "#273043",
+        Mgray: "#BFBDC1",
       },
     },
   },
