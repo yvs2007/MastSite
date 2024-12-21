@@ -3,7 +3,7 @@ import { ref } from "vue";
 import Title from "./components/Title.vue";
 import Body from "./components/Body.vue";
 import Footer from "./components/footer.vue";
-import navBar from "./componentes/navbar.vue";
+import navBar from "./components/navBar.vue";
 </script>
 
 <template>
